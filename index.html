@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        .hero {
+            background-image: url('iTi Bootstrap5 Task/Assets/hero-bg.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+    <title>Bootstrap Task01</title>
+</head>
+
+<body>
+    <header class="sticky-top bg-white shadow-sm">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid col-10">
+                <a class="navbar-brand fs-3" href="#">BizLand.</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active btn btn-outline-primary" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-outline-primary" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-outline-primary" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-outline-primary" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-outline-primary" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- =======================================================================HERO SECTION -->
+
+    <div class="hero">
+        <div class="container">
+            <p class="lead text-start fs-1 fw-bold"><strong>Welcome to <span
+                        class="text-primary">BizLand</span></strong></p>
+            <p class="text-start fs-5 fw-semibold">We are a team of talented designers making websites with Bootstrap
+            </p>
+            <div class="d-flex justify-content-start align-items-center  align-center">
+                <button type="button" class="btn btn-primary m-3">GET STARTED</button>
+                <i class="bi bi-play-circle fs-2 text-primary p-2"></i>
+                <span class="p-2 fw-semibold">Watch Video</span>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- =======================================================================CARDS -->
+
+    <main>
+        <div class="container mt-5">
+            <div class="row g-4">
+                <div class="col-xl-3 col-md-6 col-sm-12">
+                    <div class="card h-100 border border-secondary">
+                        <div class="icon p-3">
+                            <i class="bi bi-globe p-3 fs-1"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, saepe
+                                enim consequatur iure iusto earum.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-md-6 col-sm-12">
+                    <div class="card h-100 border border-secondary">
+                        <div class="icon p-3">
+                            <i class="bi bi-file-earmark-richtext p-3 fs-1"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Example Text</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, saepe
+                                enim consequatur iure iusto earum.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-md-6 col-sm-12">
+                    <div class="card h-100 border border-secondary">
+                        <div class="icon p-3">
+                            <i class="bi bi-bing p-3 fs-1"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Some Quick</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi
+                                recusandae pariatur corporis odit est quo?</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-md-6 col-sm-12">
+                    <div class="card h-100 border border-secondary">
+                        <div class="icon p-3">
+                            <i class="bi bi-globe-americas p-3 fs-1"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Consectetur Adipisicing</h5>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque
+                                voluptas assumenda odit perferendis placeat earum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- =======================================================================LAST SECTION -->
+
+        <div class="container-fluid mt-5 text-center text-bg-light">
+            <button type="button" class="btn btn-outline-primary m-3">About</button>
+            <div class="row col-12">
+                <h5>Find Out More <span class="text-primary">About Us</span></h5>
+                <p class="col-5 m-auto">Hic ut suscipit placeat quas, nulla quisquam sunt tempora delectus maiores vitae
+                    voluptatibus distinctio quam corrupti quod quae dolor! Minus, fuga quae.</p>
+            </div>
+            <div class="container text-start mt-5">
+                <div class="row">
+                    <div class="img col-xl-6 col-md-9 col-sm-12 mb-5">
+                        <img src="iTi Bootstrap5 Task/Assets/about.jpg" alt="About" class="img-fluid">
+                    </div>
+
+                    <div class="about col-xl-6 col-md-9 col-sm-12 mt-5">
+                        <span class="fs-3 fw-bold d-block mb-3 fw-bold">Esse voluptates nemo odio? Fuga odio dignissimos
+                            perferendis praesentium!</span>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quisquam voluptatum aliquid
+                            eos ipsa officia!</p>
+
+                        <div class="d-flex mt-5 border border-secondary" style="border-radius: 10px;">
+                            <div class="me-3">
+                                <i class="bi bi-shop fs-1 text-primary p-3"></i>
+                            </div>
+                            <div>
+                                <span class="fs-4 fw-medium">Lorem dolor sit, amet elit. Quaerat, sit.</span>
+                                <p class="text-muted small">Amet consectetur, elit. Repellat provident doloribus
+                                    corporis.</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex mt-4 border border-secondary"
+                            style="border-radius: 10px; background-color: white;">
+                            <div class="me-3">
+                                <i class="bi bi-images fs-1 text-primary p-3"></i>
+                            </div>
+                            <div>
+                                <span class="fs-4 fw-medium">At itaque cum excepturi animi quo?</span>
+                                <p class="text-muted small">Excepturi animi amet consectetur, elit. Repellat provident
+                                    doloribus corporis.</p>
+                            </div>
+                        </div>
+
+                        <p class="text-muted small mt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Illum, libero? Praesentium placeat
+                            deleniti nihil saepe reiciendis incidunt doloribus mollitia laboriosam dolor provident
+                            magnam, temporibus, ipsa delectus, molestiae repudiandae possimus. Recusandae?</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
